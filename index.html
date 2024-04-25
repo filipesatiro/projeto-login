@@ -27,18 +27,22 @@
         <span class="material-symbols-outlined">
             passkey
             </span>
-    <input type="email" name="login" id="ilogin" placeholder="Digite seu e-mail" autocomplete="email">
+    <input type="email" name="login" id="ilogin" placeholder="Digite seu e-mail" autocomplete="email" required maxlength="30">
     <label for="ilogin">Login</label>
     </div>
     <div class="campo">
         <span class="material-symbols-outlined">
             pin
             </span>
-    <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" autocomplete="current-password">
+    
+    <input type="password" name="senha" id="isenha" placeholder=" digitesua senha" autocomplete="current-password" required minlength="8"maxlength="20">
     <label for="isenha">Senha</label>
-    <div></div>
 
 </div>
+
+   <input type="submit" value="Entrar">
+   <a href="esqueci.html">Esqueci a senha  <span class="material-symbols-outlined">pin</span> </a>
+
 </form>
 </div>
 </section>
